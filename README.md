@@ -30,7 +30,7 @@ The reason behind code modifications:
 --There's an extra closing parenthesis after $productId in the if condition. 
 --Inside the loop, $productDetails is overwritten with each iteration. We should append the product details to an array instead.
 
-Challenges faced: I had some challenges initially finding the errors but after some testing and playing aroudn with the code, they became more apparent.
+Challenges faced: I had some challenges initially finding the errors but after some testing and playing around with the code, they became more apparent.
 
 
 ### Task 2: Class Refactor Task
