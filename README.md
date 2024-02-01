@@ -14,34 +14,24 @@ Make sure to create a new branch where you make modifications as you solve the t
 ## Tasks
 
 ### Task 1: Problem Solving
+Overview of solutions:
 
-The following PHP snippet  has a few issues: syntax errors, logical errors, and others. Your task is to identify and fix these errors. Here's the script:
+--Opening PHP tag
+--Function call
+--Assignment in if condition
+--Extra closing parenthesis
+--Overwriting variable 
 
-```php
-</php
+The reason behind code modifications:
 
-function get_products($products, $productId) {
-    $productDetails = [];
-    foreach ($products as $product) {
-        if($product['id'] = $productId)) {
-            $productDetails = $product;
-        }
-    }
-    return $productDetails;
-}
+--The opening PHP tag should be <?php
+--The function get_product is called, but the defined function is get_products.
+--There's an assignment (=) inside the if condition instead of a comparison operator (== or ===). This will assign $productId to $product['id'].
+--There's an extra closing parenthesis after $productId in the if condition. 
+--Inside the loop, $productDetails is overwritten with each iteration. We should append the product details to an array instead.
 
-$products = [
-    ['id' => 101, 'name' => 'Product 1', 'price' => 99.99],
-    ['id' => 102, 'name' => 'Product 2', 'price' => 75.00],
-    ['id' => 103, 'name' => 'Product 3', 'price' => 120.00],
-];
+Challenges faced: I had some challenges initially finding the errors but after some testing and playing aroudn with the code, they became more apparent.
 
-$productId = 102;
-$product = get_product($products, $productId);
-echo 'Product Name: ' . $product['name'] . "\n";
-echo 'Product Price: ' . $product['price'] . "\n";
-
-```
 
 ### Task 2: Class Refactor Task
 
