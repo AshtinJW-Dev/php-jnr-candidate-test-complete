@@ -1,16 +1,5 @@
 # Junior PHP Test
 
-Dear candidate,
-
-As part of the hiring process, we have a few tasks that we would like you to complete. These tasks are designed to assess your proficiency in PHP and your understanding of 
-Object-Oriented Programming. 
-
-Instructions for each task are below. 
-
-Please clone this repository to your local machine and then create a new, public repository on your own GitHub account where you can push your changes. 
-
-Make sure to create a new branch where you make modifications as you solve the tasks. Regular and meaningful commits are greatly appreciated as they help us understand your process. 
-
 ## Tasks
 
 ### Task 1: Problem Solving
@@ -57,22 +46,37 @@ The reason behind code modifications:
 --getProductById() takes a product ID as a parameter and returns an array of matching products.
 
 (ProductTest)
---We require the Product.php file to include the Product class definition.
+--We require the task2ProductClass.php file to include the Product class definition.
 --We call the getProductById() method to find the product with the specified ID.
 
 Challenges faced: One challenge that was faced in Task 2 was ensuring proper encapsulation and dependency injection while refactoring the function into a class. 
 
 ### Task 3: Data Retrieval Task
 
-For this task, create an integration using PHP to retrieve the product data from a Google Sheets document. Make sure to interact with the Google Sheets API and parse the response correctly. The goal is to replace our static `$products` array with data fetched from a spreadsheet.
+Overview of solutions:
+
+--Setting up Google API credentials and obtaining a service account JSON key file.
+--Writing PHP code to authenticate with the Google Sheets API using the service account credentials.
+--Retrieving data from the specified Google Sheets document using the Sheets API.
+--Processing the response to extract product data from the spreadsheet.
+--Outputting the product details retrieved from the spreadsheet.
+
+
+The reason behind code modifications:
+
+--Changes were made to the PHP script to integrate with the Google Sheets API and fetch data dynamically from the spreadsheet.
+--The code was modified to use the Google API Client Library for PHP to interact with the Sheets API.
+--Authentication settings were updated to use a service account and the corresponding JSON key file.
+--The code was adjusted to handle API requests and responses, including error handling and processing of retrieved data.
+
+Challenges faced:
+
+Authentication and Permissions: Setting up the correct authentication and ensuring that the service account had the necessary permissions to access the Google Sheets document was a challenge.
+
+SSL Certificate Verification: Resolving SSL certificate verification issues when making requests to the Google Sheets API was another challenge. This required disabling SSL verification.
+
+Understanding API Usage: Understanding how to use the Google Sheets API and making API requests.
 
 ### Task 4: Documentation
 
-Please include comments in your code to explain your logic. Also, update this README in your private repository to provide an overview of your solutions, the reason behind your code 
-modifications, and any challenges you faced.
-
-After you have completed all tasks and updated the README, please create a pull request to the main branch in your private repository and share the link with us so we can review your 
-work.
-
----
-Thank you in advance for your effort and time, and good luck!
+Thanks so much for the oppurtunity! It's been great practice solving the tasks.
