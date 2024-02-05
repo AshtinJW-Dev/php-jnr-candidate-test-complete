@@ -35,9 +35,32 @@ Challenges faced: I had some challenges initially finding the errors but after s
 
 ### Task 2: Class Refactor Task
 
-Using the corrected code from Task 1, refactor the `get_products` function into a `Product` class using Object-Oriented PHP. The class should have a constructor that takes in the `$products` array and a method to find a product by its ID.
+Overview of solutions:
 
-Remember, we would like to see the use of encapsulation and Dependency Injection in your solution.
+(ProductClass)
+--We define a private property $products.
+--We use the constructor method __construct().
+--We define a public method getProductById().
+
+(ProductTest)
+--We require the Product.php file.
+--We create an instance of the Product class, passing the $products array to its constructor.
+--We define the product ID we want to search for.
+--We call the getProductById() method.
+--We output the details of the matching product.
+
+The reason behind code modifications:
+
+(ProductClass)
+--$products is used to store the array of products.
+--the constructor method __construct() takes the $products array as a parameter and assigns it to the $products property.
+--getProductById() takes a product ID as a parameter and returns an array of matching products.
+
+(ProductTest)
+--We require the Product.php file to include the Product class definition.
+--We call the getProductById() method to find the product with the specified ID.
+
+Challenges faced: One challenge that was faced in Task 2 was ensuring proper encapsulation and dependency injection while refactoring the function into a class. 
 
 ### Task 3: Data Retrieval Task
 
