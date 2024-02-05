@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "junior-php-test",
+  "private_key_id": "6f99dceab057de685f4459917eb1b076010566d2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCdcjtZWT+h1hK8\n+P8cG6CnSH2b2YmOqRUqiXM9hNgpfUu24M1dMWR2heeAhy6y2+pPrRlYjCxKiDN7\nRcrqpo5HMBpBcAWAB67ZY/zhAHWeKtci7996tRUoR/f0tF0Qj3ApH19NnO5kcdIg\nUs/3LohEkSJTWyFGQxfxx+odvUxwmpJN/ep3z5pfWyd13aYxapHF8KvEz0Lb+roH\nF9CV5pYcGObzhA2coMaFbBkPTGPhElz+OFXbp8sLfN21x9ri+l9K+skWDu5CJRFP\n6BvJdwwhk7na4/x50E6IXI1ebxK2XZab4cmFI7u2tmleWH9ID/WFVrGmUcrX6oyW\n5ytLZZMxAgMBAAECggEAEnt2opQyv093NyY+okDPANwmXJ1yg6PvF2V3uPTHgEVU\nVkU47lPuQGiTJrgXwAjHTm+aPlYEHAK1kma8vYNsR8iKiHx7NM6SFLRjWtFYPUc3\npoMEl626rFYYciobE6bW6ojjgeOma3WeDkvSXGiit/PWlPTpaMtW+/u1DKUsXDpl\nxSHNP697xu9zWn7x4GIdszH61PrM2aeo+paYSYw34jeomZ5bW+LBuihfzzOBrVRG\n/DViNzVrpO65gHBhiES+Wj0JQjp/NGFOpeEGMpZnAe4VpLzzPZV0Vq+C2klkXe/Y\ne21Kyt//Bupqw+9IK3ys2X2IryZ0mNMEYQAAosBETQKBgQDNVNncTaWc+6Bn2odf\nLqc0s/ekfPijsYXpxyYEerZxhyF9a2z6rDFYbQBtAMd3Fi1dGo+mHRjj9Gbmrdcm\nKw3839h/3mFuHDUNvmbGn5V+oQ8POWBuxImYLse7MQ9sPidjAc3GXNKBVFbYTJn0\nU2pqFJ68awsSVKVZSyNTaeCeTQKBgQDETGLxRfd2KK6eO5m/oieyLf5RgyG0ydKb\nBEUf1P4IGY+wXefwe3MtnAglGGqoXbe9/r/5TljmmI73e62F1gVFU96T8kfWJ2a7\nscsz4kr7/fLh27O4ncTDmxCl08Dgnds6VujwCxEEYWB760i51R1TqhLSAtxQESWQ\nmeA5HxMidQKBgHQGBjTeCz7xUGpeqS+3hPPa3YwssbKNlUXMKkdNr9nmqZ3dHe9n\nbVqx/ROa5Rr9hRSe9Zy/xFjKuXqPsIr4uSaytftLBXLarX/enuSNOEQdbg0ENuFg\nXP+JL4Mu7bAUTt07H7N+r9Q0e/4tCrFskSzwCeId+luZSPVz57oykaHhAoGAKNJt\n3RkczlDFh5iDb8vMD4zrD46CqvMxvhUUPvtvXMXcEORmgKdbm4eQVg6O17atqHBb\nAgCeEk51pNfujR+l9vXrGr9O2yVUgwIFbSPJTkBQi1HCPUlqCverbaDswolxdt9u\nD8VtY4jQpNSYSjUcpTKAOXZo1KnMMxcc/yQMOaUCgYAKUrv+fN/Qxvxy6RaNuyE9\nyM0BP/UqdO4o6ULQ0PFpG5akprZfTTZIrK2Mvy8IS+BXU9+Uih0UnUlvhcjY4Y0p\nNr1zIylF5XpBhIcHFWtXdEEdEsdFenqeShOjK1R35z7SxI0/smcgxT8HVFwJfHg3\nd5JvlyawUlp5PLnbuQK0dg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "junior-php-test-service-accoun@junior-php-test.iam.gserviceaccount.com",
+  "client_id": "115219526511752409553",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/junior-php-test-service-accoun%40junior-php-test.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,7 +1,7 @@
 <?php
 
 function get_products($products, $productId) {
-    $productDetails = []; // Changed variable name to indicate multiple products
+    $productDetails = []; 
     foreach ($products as $product) {
         if ($product['id'] == $productId) { // Used double equal sign for comparison
             $productDetails[] = $product; // Appended matching products to the array
